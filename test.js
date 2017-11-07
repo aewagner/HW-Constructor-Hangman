@@ -1,3 +1,3 @@
-var arr = ["a", "b", "c"];
+var arr = [a,
 
 console.log(arr);
