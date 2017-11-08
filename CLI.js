@@ -35,13 +35,6 @@ function guessLetter() {
                 type: "input",
                 message: "Guess a letter!",
                 name: "letGuessed"
-                // validate: function(value){
-                //     let regExp = /^[a-z\-']/i;
-                //     if(regExp.test(value) === true && value.length === 1){
-                //         return true;
-                //     }
-                //     return false;
-                // }
             }
         ]).then(function(answer){
         var letterGuessed = answer.letGuessed;
